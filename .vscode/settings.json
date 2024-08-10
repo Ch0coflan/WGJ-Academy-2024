@@ -51,5 +51,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "WGJ Academy.sln"
+    "dotnet.defaultSolution": "WGJ-Academy-2024.sln"
 }
