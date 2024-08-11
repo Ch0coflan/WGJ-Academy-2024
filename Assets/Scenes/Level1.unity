@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5734036, g: 0.6662857, b: 0.62454623, a: 1}
+  m_IndirectSpecularColor: {r: 0.5733665, g: 0.6662647, b: 0.62452257, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _generateSegmentsAhead: 6
   _activateSegmentsAhead: 2
-  _loadTimeout: 10
+  _loadTimeout: 0
   _maxSegments: 10
   _buildOnAwake: 1
   _multithreaded: 1
