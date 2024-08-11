@@ -24,13 +24,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2290387306896673385}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -10.000006, y: 0, z: 2.5733137}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1166936084127781480}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1 &3422073681927889248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2250,7 +2250,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1153551310469148449}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: -0.7071069, z: 0, w: 0.7071069}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2281,7 +2281,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6937371773915598801}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: -0.7071069, z: 0, w: 0.7071069}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2313,10 +2313,10 @@ MonoBehaviour:
     _isRoot: 0
   bounds:
     center: {x: -3.9386153, y: 1.4624081, z: 4.0868826}
-    extents: {x: 6.061394, y: 1.5524082, z: 4.0951214}
-    max: {x: 2.1227791, y: 3.0148163, z: 8.182004}
-    min: {x: -10.00001, y: -0.09000015, z: -0.008239269}
-    size: {x: 12.122788, y: 3.1048164, z: 8.190243}
+    extents: {x: 6.0613933, y: 1.552408, z: 4.0951214}
+    max: {x: 2.1227782, y: 3.014816, z: 8.182004}
+    min: {x: -10.000009, y: -0.09, z: -0.008239269}
+    size: {x: 12.1227865, y: 3.104816, z: 8.190243}
   builders: []
   unpacked: 0
   alwaysDraw: 0
@@ -2326,7 +2326,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 69
+  editorChildCount: 70
 --- !u!1 &5808144529781848660
 GameObject:
   m_ObjectHideFlags: 0
@@ -2351,13 +2351,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5808144529781848660}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: 2.1166625, y: 0.021266937, z: 2.5797672}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1166936084127781480}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
 --- !u!1001 &595953762411940536
 PrefabInstance:
   m_ObjectHideFlags: 0
