@@ -30,6 +30,7 @@ namespace Script
             {
                 _runner.followSpeed += _speedIncrement;
                 timer = 0f;
+                
             }
             if (Input.GetKeyDown(KeyCode.LeftArrow)) _runner.lane--;
             if(Input.GetKeyDown(KeyCode.RightArrow)) _runner.lane++;
@@ -37,7 +38,7 @@ namespace Script
             _jump = Physics.Raycast(tf.position, Vector2.down, 2f, ground);
 
             if(Input.GetKeyDown(KeyCode.Space) && _jump) _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-
+            Debug.Log(timer);
         }
 
         

@@ -12,20 +12,7 @@ public class doorTrigger : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
-            teleportPlayerTo(other.gameObject);
-        }
-    }
-
-    private void teleportPlayerTo(GameObject player)
-    {
-        if(teleportPoint!= null)
-        {
-            player.transform.position = teleportPoint.transform.position;
-            player.transform.position = teleportPoint.transform.position;
-        }
-        else
-        {
-            Debug.LogWarning("no hay punto asignado");
+            SceneManager.LoadScene("ponerxd");
         }
     }
 

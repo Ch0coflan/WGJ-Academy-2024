@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &496555484210948102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5222009818806614811}
+  m_Layer: 0
+  m_Name: spawnObject2
+  m_TagString: Untagged
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5222009818806614811
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 496555484210948102}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0.70405316, z: -0, w: 0.71014726}
+  m_LocalPosition: {x: 25, y: 0, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4391703107628917304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3789587669150886193
 GameObject:
   m_ObjectHideFlags: 0
@@ -151,6 +182,7 @@ GameObject:
   - component: {fileID: 7389203968248859976}
   - component: {fileID: 3101243670699528532}
   - component: {fileID: 4793891513945967867}
+  - component: {fileID: -4108900993226955593}
   m_Layer: 0
   m_Name: ciudad4
   m_TagString: Untagged
@@ -268,6 +300,7 @@ Transform:
   - {fileID: 7177983798032788675}
   - {fileID: 6479995469382781379}
   - {fileID: 1778574536717051528}
+  - {fileID: 5222009818806614811}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &7389203968248859976
@@ -8174,6 +8207,37 @@ MonoBehaviour:
     spriteRenderer: {fileID: 0}
     colliders: []
     _isRoot: 0
+  - transform: {fileID: 5222009818806614811}
+    localRotation: {x: 0, y: -0.70405316, z: 0, w: 0.71014726}
+    extrudedMesh: {fileID: 0}
+    extrusionSpriteVertices: []
+    extrusionSpriteUVs: []
+    extrusionSpriteRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    extrudedCollisionMesh: {fileID: 0}
+    _extrusionSettings:
+      meshColliderHandling: 0
+      boundsInclusion: -1
+      indexing: 0
+      applyRotation: 1
+      keepUpright: 0
+      upVector: {x: 0, y: 1, z: 0}
+      applyScale: 0
+      bendMesh: 0
+      bendSprite: 0
+      bendPolygonCollider: 0
+      applyMeshColors: 0
+    _settingsComponent: {fileID: 0}
+    overrideSettingsComponent: 0
+    meshFilter: {fileID: 0}
+    meshCollider: {fileID: 0}
+    spriteRenderer: {fileID: 0}
+    colliders: []
+    _isRoot: 0
   bounds:
     center: {x: -48.31028, y: -5.738778, z: 3.075284}
     extents: {x: 81.82241, y: 18.95, z: 14.9881525}
@@ -8189,7 +8253,23 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 249
+  editorChildCount: 250
+--- !u!114 &-4108900993226955593
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8393440350052145205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredValue: 20
+  timer: 0
+  endObject: {fileID: 0}
+  _spawnObject: {fileID: 0}
 --- !u!1 &9069823978384782905
 GameObject:
   m_ObjectHideFlags: 0
@@ -11899,7 +11979,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 6236199172306320541, guid: b9f8100c6aa3d48bba134d5101b9eb30, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -33.737503
+      value: -33.96
       objectReference: {fileID: 0}
     - target: {fileID: 6236199172306320541, guid: b9f8100c6aa3d48bba134d5101b9eb30, type: 3}
       propertyPath: m_LocalPosition.y
@@ -13350,6 +13430,18 @@ PrefabInstance:
     - target: {fileID: 2704194667853079670, guid: 439dc278487304de9a82a4525fa9dcc0, type: 3}
       propertyPath: m_Name
       value: Box_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782966564433315821, guid: 439dc278487304de9a82a4525fa9dcc0, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782966564433315821, guid: 439dc278487304de9a82a4525fa9dcc0, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4066
+      objectReference: {fileID: 0}
+    - target: {fileID: 3782966564433315821, guid: 439dc278487304de9a82a4525fa9dcc0, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4066
       objectReference: {fileID: 0}
     - target: {fileID: 3782966564433315821, guid: 439dc278487304de9a82a4525fa9dcc0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -15126,7 +15218,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3678250707840360489, guid: 35b179380cc604c25b139e8751f1e95e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -29.449524
+      value: -29.96
       objectReference: {fileID: 0}
     - target: {fileID: 3678250707840360489, guid: 35b179380cc604c25b139e8751f1e95e, type: 3}
       propertyPath: m_LocalPosition.y
@@ -16477,8 +16569,20 @@ PrefabInstance:
     m_TransformParent: {fileID: 6479995469382781379}
     m_Modifications:
     - target: {fileID: 5709857939775204593, guid: 08e7199a34cda48beb7e0051b301b8e7, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.4066
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709857939775204593, guid: 08e7199a34cda48beb7e0051b301b8e7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.4066
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709857939775204593, guid: 08e7199a34cda48beb7e0051b301b8e7, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.4066
+      objectReference: {fileID: 0}
+    - target: {fileID: 5709857939775204593, guid: 08e7199a34cda48beb7e0051b301b8e7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.448563
+      value: -21.9
       objectReference: {fileID: 0}
     - target: {fileID: 5709857939775204593, guid: 08e7199a34cda48beb7e0051b301b8e7, type: 3}
       propertyPath: m_LocalPosition.y

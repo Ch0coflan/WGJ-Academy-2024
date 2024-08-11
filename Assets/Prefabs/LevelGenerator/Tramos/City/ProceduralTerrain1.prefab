@@ -43,6 +43,7 @@ GameObject:
   - component: {fileID: 4991439481228630710}
   - component: {fileID: 2941249378274995932}
   - component: {fileID: 1151855379161491134}
+  - component: {fileID: 4987664598095866568}
   m_Layer: 0
   m_Name: ProceduralTerrain1
   m_TagString: Untagged
@@ -7491,6 +7492,22 @@ MonoBehaviour:
   drawBounds: 1
   drawCustomPaths: 1
   editorChildCount: 230
+--- !u!114 &4987664598095866568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4871814849114388410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  requiredValue: 20
+  timer: 0
+  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+  _spawnObject: {fileID: 5633788995420238969}
 --- !u!1 &5585897023171311417
 GameObject:
   m_ObjectHideFlags: 0
@@ -7532,9 +7549,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5633788995420238969}
   m_Layer: 0
-  m_Name: Adornitos Varios
+  m_Name: spawnObject
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5487077368411116049, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -7547,7 +7564,7 @@ Transform:
   m_GameObject: {fileID: 7808319436244876064}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 25, y: 0.615, z: 4.398}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
