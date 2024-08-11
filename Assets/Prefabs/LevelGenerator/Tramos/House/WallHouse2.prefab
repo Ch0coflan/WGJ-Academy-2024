@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3292008367812824174}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 2.1166625, y: 0.021266937, z: 2.5797672}
+  m_LocalPosition: {x: 2.1166625, y: 0.021266937, z: 4.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -56,7 +56,7 @@ Transform:
   m_GameObject: {fileID: 3372409735360931522}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -10.000006, y: 0.021265164, z: 2.5733137}
+  m_LocalPosition: {x: -10.000006, y: 0.021265164, z: 4.29}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -88,7 +88,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7658847335617690418}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -123,7 +123,7 @@ Transform:
   - {fileID: 4195072109790289356}
   - {fileID: 6696288640287933926}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &9026268895352578765
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -172,7 +172,7 @@ MonoBehaviour:
   customPaths: []
   objectProperties:
   - transform: {fileID: 7680507596803232971}
-    localRotation: {x: 0, y: 0, z: 0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -203,7 +203,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 1
   - transform: {fileID: 5375108088444146600}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -234,7 +234,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 4993329496957084395}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -265,7 +265,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 4118721954283013761}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -296,7 +296,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 5070219236953029643}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -327,7 +327,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 5300437021393571144}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -358,7 +358,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 3885922651767662882}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -389,7 +389,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2989554411880074110}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -420,7 +420,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2787412672944142909}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -451,7 +451,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6543057897016712791}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -482,7 +482,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8150154523687251433}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -513,7 +513,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1716328855549763585}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -544,7 +544,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2424999056276475572}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -575,7 +575,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1820076770911993576}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -606,7 +606,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1652780749866681885}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -637,7 +637,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 4841611009757314224}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -668,7 +668,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 7169766236985974699}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -699,7 +699,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2462308713316637884}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -730,7 +730,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6627849132023755647}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -761,7 +761,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1265782704796810068}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -792,7 +792,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6143042303882244726}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -823,7 +823,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1904331842065751037}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -854,7 +854,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 462775457366283356}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -885,7 +885,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 702558486714098975}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -916,7 +916,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8492804060409790837}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -947,7 +947,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8578140039413612539}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -978,7 +978,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8707791250014342840}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1009,7 +1009,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 340927163561880274}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1040,7 +1040,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1862964204271077902}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1071,7 +1071,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1587926761579559757}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1102,7 +1102,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 7667958403556581159}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1133,7 +1133,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2872468507778683403}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1164,7 +1164,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2886499535389238088}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1195,7 +1195,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6083683030886221602}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1226,7 +1226,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 167038536439586712}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1257,7 +1257,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 973505682996850395}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1288,7 +1288,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8206098594431158961}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1319,7 +1319,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 8871442107427332184}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1350,7 +1350,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 3311962633679104882}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1381,7 +1381,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2086147563211983792}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1412,7 +1412,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 46964758250428035}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1443,7 +1443,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 5671695764206734025}
-    localRotation: {x: 0, y: 0.70710677, z: 0.7071069, w: 0}
+    localRotation: {x: 0, y: 0.7071067, z: 0.7071068, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1474,7 +1474,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 3748730421236499414}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1505,7 +1505,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 5869314739291528344}
-    localRotation: {x: 0, y: 1.0000001, z: 0, w: 0}
+    localRotation: {x: 0, y: 1, z: -0, w: 0}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1536,7 +1536,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 7354961655664664647}
-    localRotation: {x: 0.49999994, y: 0.50000024, z: 0.5000002, w: -0.4999999}
+    localRotation: {x: 0.49999988, y: 0.5000001, z: 0.5000001, w: -0.49999985}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1567,7 +1567,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 563330750216975464}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1598,7 +1598,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2264446059585913781}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1629,7 +1629,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 1433527400448573631}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1660,7 +1660,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 4875176105955031492}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1691,7 +1691,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6563342462624042521}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1722,7 +1722,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6313388142364822803}
-    localRotation: {x: -0.7071069, y: 0, z: 0, w: 0.70710677}
+    localRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071067}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1752,132 +1752,8 @@ MonoBehaviour:
     spriteRenderer: {fileID: 0}
     colliders: []
     _isRoot: 0
-  - transform: {fileID: 3674089948262251773}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
-    extrudedMesh: {fileID: 0}
-    extrusionSpriteVertices: []
-    extrusionSpriteUVs: []
-    extrusionSpriteRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    extrudedCollisionMesh: {fileID: 0}
-    _extrusionSettings:
-      meshColliderHandling: 0
-      boundsInclusion: -1
-      indexing: 0
-      applyRotation: 1
-      keepUpright: 0
-      upVector: {x: 0, y: 1, z: 0}
-      applyScale: 0
-      bendMesh: 0
-      bendSprite: 0
-      bendPolygonCollider: 0
-      applyMeshColors: 0
-    _settingsComponent: {fileID: 0}
-    overrideSettingsComponent: 0
-    meshFilter: {fileID: 0}
-    meshCollider: {fileID: 0}
-    spriteRenderer: {fileID: 0}
-    colliders: []
-    _isRoot: 0
-  - transform: {fileID: 5880538629833063865}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
-    extrudedMesh: {fileID: 0}
-    extrusionSpriteVertices: []
-    extrusionSpriteUVs: []
-    extrusionSpriteRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    extrudedCollisionMesh: {fileID: 0}
-    _extrusionSettings:
-      meshColliderHandling: 0
-      boundsInclusion: -1
-      indexing: 0
-      applyRotation: 1
-      keepUpright: 0
-      upVector: {x: 0, y: 1, z: 0}
-      applyScale: 0
-      bendMesh: 0
-      bendSprite: 0
-      bendPolygonCollider: 0
-      applyMeshColors: 0
-    _settingsComponent: {fileID: 0}
-    overrideSettingsComponent: 0
-    meshFilter: {fileID: 4972071220159245175}
-    meshCollider: {fileID: 0}
-    spriteRenderer: {fileID: 0}
-    colliders: []
-    _isRoot: 0
-  - transform: {fileID: 1449695616416050156}
-    localRotation: {x: 0, y: 0.7071067, z: 0.707107, w: -0.00000035824823}
-    extrudedMesh: {fileID: 0}
-    extrusionSpriteVertices: []
-    extrusionSpriteUVs: []
-    extrusionSpriteRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    extrudedCollisionMesh: {fileID: 0}
-    _extrusionSettings:
-      meshColliderHandling: 0
-      boundsInclusion: -1
-      indexing: 0
-      applyRotation: 1
-      keepUpright: 0
-      upVector: {x: 0, y: 1, z: 0}
-      applyScale: 0
-      bendMesh: 0
-      bendSprite: 0
-      bendPolygonCollider: 0
-      applyMeshColors: 0
-    _settingsComponent: {fileID: 0}
-    overrideSettingsComponent: 0
-    meshFilter: {fileID: 584538663341678981}
-    meshCollider: {fileID: 0}
-    spriteRenderer: {fileID: 0}
-    colliders: []
-    _isRoot: 0
-  - transform: {fileID: 3812285780309358345}
-    localRotation: {x: 0, y: 0.7071067, z: 0.707107, w: -0.00000035824823}
-    extrudedMesh: {fileID: 0}
-    extrusionSpriteVertices: []
-    extrusionSpriteUVs: []
-    extrusionSpriteRect:
-      serializedVersion: 2
-      x: 0
-      y: 0
-      width: 0
-      height: 0
-    extrudedCollisionMesh: {fileID: 0}
-    _extrusionSettings:
-      meshColliderHandling: 0
-      boundsInclusion: -1
-      indexing: 0
-      applyRotation: 1
-      keepUpright: 0
-      upVector: {x: 0, y: 1, z: 0}
-      applyScale: 0
-      bendMesh: 0
-      bendSprite: 0
-      bendPolygonCollider: 0
-      applyMeshColors: 0
-    _settingsComponent: {fileID: 0}
-    overrideSettingsComponent: 0
-    meshFilter: {fileID: 7708746271004608549}
-    meshCollider: {fileID: 0}
-    spriteRenderer: {fileID: 0}
-    colliders: []
-    _isRoot: 0
   - transform: {fileID: 618379187601893515}
-    localRotation: {x: 0, y: 0, z: -0, w: 1.0000001}
+    localRotation: {x: 0, y: 0, z: 0, w: 1}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1908,7 +1784,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 7567224036880599183}
-    localRotation: {x: 0, y: 0.55685896, z: -0, w: 0.8306073}
+    localRotation: {x: 0, y: 0.5568589, z: -0, w: 0.8306072}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1939,7 +1815,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2593617911643035767}
-    localRotation: {x: 0, y: 0.9043624, z: 0, w: 0.42676562}
+    localRotation: {x: 0, y: 0.90436226, z: -0, w: 0.42676556}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -1970,7 +1846,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 2596482231041797625}
-    localRotation: {x: 0, y: 0.84715796, z: 0, w: -0.5313414}
+    localRotation: {x: 0, y: 0.84715784, z: 0, w: -0.5313413}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2001,7 +1877,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 5795187407305129394}
-    localRotation: {x: 0.69020253, y: 0.14028734, z: 0.69003403, w: -0.16671348}
+    localRotation: {x: 0.6902024, y: 0.14028732, z: 0.690034, w: -0.16671346}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2032,7 +1908,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 3211813032704969949}
-    localRotation: {x: 0, y: 0.84715796, z: 0, w: -0.5313414}
+    localRotation: {x: 0, y: 0.84715784, z: 0, w: -0.5313413}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2063,7 +1939,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6410465070676483222}
-    localRotation: {x: 0.69020253, y: 0.14028734, z: 0.69003403, w: -0.16671348}
+    localRotation: {x: 0.6902024, y: 0.14028732, z: 0.690034, w: -0.16671346}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2094,7 +1970,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 4195072109790289356}
-    localRotation: {x: 0, y: -0.7071069, z: 0, w: 0.7071069}
+    localRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2125,7 +2001,7 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   - transform: {fileID: 6696288640287933926}
-    localRotation: {x: 0, y: -0.7071069, z: 0, w: 0.7071069}
+    localRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
     extrudedMesh: {fileID: 0}
     extrusionSpriteVertices: []
     extrusionSpriteUVs: []
@@ -2156,11 +2032,11 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: -3.9386153, y: 1.4624081, z: 4.0868826}
-    extents: {x: 6.0613933, y: 1.552408, z: 4.0951214}
-    max: {x: 2.1227782, y: 3.014816, z: 8.182004}
-    min: {x: -10.000009, y: -0.09, z: -0.008239269}
-    size: {x: 12.1227865, y: 3.104816, z: 8.190243}
+    center: {x: -3.938614, y: 1.4624081, z: 4.0765386}
+    extents: {x: 6.061392, y: 1.552408, z: 4.0847774}
+    max: {x: 2.1227777, y: 3.014816, z: 8.161316}
+    min: {x: -10.000006, y: -0.09, z: -0.00823909}
+    size: {x: 12.122784, y: 3.104816, z: 8.169555}
   builders: []
   unpacked: 0
   alwaysDraw: 0
@@ -2170,7 +2046,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 64
+  editorChildCount: 60
 --- !u!1001 &135042887766047010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3718,39 +3594,9 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
---- !u!33 &584538663341678981 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 6219314660508691969, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &1449695616416050156 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 5354103831328384104, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3674089948262251773 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7831546709724935033, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &3812285780309358345 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 7688830740499609741, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &4875176105955031492 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2160559851638519360, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &4972071220159245175 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 1969087904638657779, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!4 &5880538629833063865 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 1137191687032992317, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
   m_PrefabInstance: {fileID: 6796991123807637380}
   m_PrefabAsset: {fileID: 0}
 --- !u!4 &6313388142364822803 stripped
@@ -3771,11 +3617,6 @@ MeshFilter:
 --- !u!33 &7506127147239134821 stripped
 MeshFilter:
   m_CorrespondingSourceObject: {fileID: 3925130846022097377, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
-  m_PrefabInstance: {fileID: 6796991123807637380}
-  m_PrefabAsset: {fileID: 0}
---- !u!33 &7708746271004608549 stripped
-MeshFilter:
-  m_CorrespondingSourceObject: {fileID: 3794621946848692129, guid: bfa974a01b4cbd94eb18f3e7956f9aca, type: 3}
   m_PrefabInstance: {fileID: 6796991123807637380}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6802704030234345929
