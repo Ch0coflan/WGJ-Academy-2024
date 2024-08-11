@@ -803,6 +803,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   jumpForce: 20
+  timer: 0
+  ground:
+    serializedVersion: 2
+    m_Bits: 8
+  tf: {fileID: 1931646777}
 --- !u!75 &1931646782
 ConstantForce:
   m_ObjectHideFlags: 0
