@@ -8048,13 +8048,13 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: 2.0194626, y: -18.17014, z: 5.844881}
-    extents: {x: 130.12735, y: 31.550735, z: 17.758886}
-    max: {x: 132.14682, y: 13.380596, z: 23.603767}
+    center: {x: 2.0194626, y: -18.25483, z: 5.844881}
+    extents: {x: 130.12735, y: 31.466045, z: 17.758886}
+    max: {x: 132.14682, y: 13.211216, z: 23.603767}
     min: {x: -128.1079, y: -49.720875, z: -11.914005}
-    size: {x: 260.2547, y: 63.10147, z: 35.517773}
+    size: {x: 260.2547, y: 62.93209, z: 35.517773}
   builders: []
-  unpacked: 1
+  unpacked: 0
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -8062,7 +8062,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 243
+  editorChildCount: 244
 --- !u!114 &5221078923765729421
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8075,10 +8075,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredValue: 20
+  requiredValue: 25
   timer: 0
-  endObject: {fileID: 0}
-  _spawnObject: {fileID: 0}
+  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+  _spawnObject: {fileID: 5630817222828130459}
 --- !u!1001 &29225862947855399
 PrefabInstance:
   m_ObjectHideFlags: 0

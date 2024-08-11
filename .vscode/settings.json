@@ -51,5 +51,6 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "WGJ-Academy-2024.sln"
+    "dotnet.defaultSolution": "WGJ-Academy-2024.sln",
+    "FSharp.suggestGitignore": false
 }

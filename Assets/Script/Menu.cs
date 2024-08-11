@@ -23,10 +23,15 @@ namespace Script
             StartCoroutine(time());
         }
 
+        public void Level1()
+        {
+            SceneManager.LoadScene("Level1");
+        }
+
         IEnumerator time()
         {
             yield return new WaitForSeconds(4f);
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Birthday");
         }
 
         private void wait()

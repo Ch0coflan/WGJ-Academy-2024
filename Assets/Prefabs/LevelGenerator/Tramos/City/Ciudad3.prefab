@@ -8626,10 +8626,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  requiredValue: 20
+  requiredValue: 10
   timer: 0
-  endObject: {fileID: 0}
-  _spawnObject: {fileID: 0}
+  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+  _spawnObject: {fileID: 5050984600655411827}
 --- !u!1 &7020051330877237463
 GameObject:
   m_ObjectHideFlags: 0
