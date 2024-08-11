@@ -8,19 +8,18 @@ namespace Script
 {
     public class Menu : MonoBehaviour
     {
-        [SerializeField] private Animator anim;
+       // [SerializeField] private Animator anim;
         [SerializeField] private GameObject portal;
         [SerializeField] private GameObject button;
+        [SerializeField] private GameObject image;
 
-        public void Start()
-        {
-            anim = FindObjectOfType<Animator>();
-        }
+
 
         public void Play()
         {
-            anim.enabled = true;
+            Debug.Log("entro");
             portal.SetActive(true);
+            Invoke("wait",1f);
             StartCoroutine(time());
         }
 
@@ -28,6 +27,11 @@ namespace Script
         {
             yield return new WaitForSeconds(4f);
             SceneManager.LoadScene("Level1");
+        }
+
+        private void wait()
+        {
+            image.SetActive(false);
         }
     }
 }
