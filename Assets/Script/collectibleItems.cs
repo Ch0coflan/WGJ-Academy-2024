@@ -1,39 +1,60 @@
+using Script;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class collectibleItems : MonoBehaviour
 {
     [SerializeField] private int objectsCollected = 0;
-    public GameObject Door1;
-    public GameObject Door2;
-    public GameObject Door3;
+    [SerializeField] private int requiredValue = 20;
+    public GameObject endObject;
+    public Transform spawnObject;
+     private Move _move;
+
+    private void Update()
+    {
+        if(_move != null && _move.timer >= requiredValue)
+        {
+            SpawnObject();
+        }
+    }
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.CompareTag("Item"))
+        if (other.CompareTag("Item"))
         {
             objectsCollected++;
             Destroy(other.gameObject);
-            CheckForDoorActivation();
+
         }
     }
 
-    void CheckForDoorActivation()
+    private void OnCollisionEnter(Collision collision)
     {
-        int requiredObjects = 10;
-
-        if(objectsCollected >= requiredObjects)
+        if(collision.gameObject.CompareTag("Fin"))
         {
-            ActivateDoor();
+            SceneManager.LoadScene("lamala");
         }
     }
 
-    void ActivateDoor()
+    private void SpawnObject()
     {
-        Door1.SetActive(true);
-        Door2.SetActive(true);
-        Door3.SetActive(true);
-        Debug.Log("puertas activadas");
+        if (spawnObject != null)
+        {
+            // Instancia el objeto en la posición y rotación del punto predefinido
+            Instantiate(endObject, spawnObject.position, spawnObject.rotation);
+            Debug.Log("Objeto instanciado en el punto predefinido.");
+        }
+        else
+        {
+            Debug.LogError("No se ha asignado un punto de generación.");
+        }
     }
+
+   
 }
+
+   
+
+   
