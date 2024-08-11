@@ -2188,11 +2188,11 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: -3.938614, y: 1.4624081, z: 4.0765386}
-    extents: {x: 6.061392, y: 1.552408, z: 4.0847774}
+    center: {x: -3.938614, y: 1.4624081, z: 4.076538}
+    extents: {x: 6.061392, y: 1.552408, z: 4.084778}
     max: {x: 2.1227777, y: 3.014816, z: 8.161316}
-    min: {x: -10.000006, y: -0.09, z: -0.00823909}
-    size: {x: 12.122784, y: 3.104816, z: 8.169555}
+    min: {x: -10.000006, y: -0.09000003, z: -0.008239269}
+    size: {x: 12.122784, y: 3.104816, z: 8.169556}
   builders: []
   unpacked: 0
   alwaysDraw: 0
@@ -2202,7 +2202,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 66
+  editorChildCount: 65
 --- !u!1 &5808144529781848660
 GameObject:
   m_ObjectHideFlags: 0
