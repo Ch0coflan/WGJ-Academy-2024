@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.66102904, g: 0.459383, b: 0.45468062, a: 1}
+  m_IndirectSpecularColor: {r: 0.66102904, g: 0.4593525, b: 0.4546579, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -450,7 +450,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _generateSegmentsAhead: 6
   _activateSegmentsAhead: 2
-  _loadTimeout: 10
+  _loadTimeout: 0
   _maxSegments: 10
   _buildOnAwake: 1
   _multithreaded: 1
@@ -893,6 +893,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   tf: {fileID: 1931646777}
+  anim: {fileID: 0}
 --- !u!75 &1931646782
 ConstantForce:
   m_ObjectHideFlags: 0

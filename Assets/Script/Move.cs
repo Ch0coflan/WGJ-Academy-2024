@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Forever;
 
@@ -11,6 +13,7 @@ namespace Script
         private float _incrementTime = 40f,_speedIncrement = 5f;
         [SerializeField] private LayerMask ground;
         [SerializeField] private Transform tf;
+        [SerializeField] private Animator anim;
 
 
         private LaneRunner _runner;
@@ -20,6 +23,8 @@ namespace Script
         {
             _runner = GetComponent<LaneRunner>();
             _rb = GetComponent<Rigidbody>();
+            anim = FindObjectOfType<Animator>();
+            StartCoroutine(animation());
         }
 
         private void Update()
@@ -41,7 +46,11 @@ namespace Script
             Debug.Log(timer);
         }
 
-        
+        IEnumerator animation()
+        {
+            yield return new WaitForSeconds(4.275f);
+            anim.SetTrigger("Action");
+        }
         
     }
 }
