@@ -34,6 +34,7 @@ namespace Script
         {
             ppalMenu.SetActive(false);
             optionsMenu.SetActive(true);
+            AudioManager.Instance.PlaySFX("Yay");
         }
 
         public void ShowCredits()

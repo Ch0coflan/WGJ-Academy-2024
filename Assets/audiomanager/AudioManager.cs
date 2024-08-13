@@ -26,7 +26,7 @@ public class AudioManager : MonoBehaviour
 
     private void Start()
     {
-        PlayMusic("LogIn");
+        PlayMusic("Cuarto");
     }
     public void PlayMusic(string name)
     {
@@ -71,7 +71,27 @@ public class AudioManager : MonoBehaviour
    
 
 
-
+    public void ChangeMusic(string sceneName)
+{
+    switch (sceneName)
+    {
+        case "Menu":
+            PlayMusic("Cuarto");
+            break;
+        case "Birthday":
+            PlayMusic("Cuarto");
+            break;
+        case "Level1":
+            PlayMusic("Cuarto");
+            break;
+        case "Level2": 
+            PlayMusic("Cuarto");
+            break;
+        case "Level3":
+            PlayMusic("Cuarto");
+            break;
+    }
+}
 
 
 
