@@ -564,6 +564,28 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5631013958592418502, guid: ae3b76f30c4b9444693b2de81b8a6059, type: 3}
   m_PrefabInstance: {fileID: 1510112649977376249}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1695798869 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3082524366854907226, guid: ae3b76f30c4b9444693b2de81b8a6059, type: 3}
+  m_PrefabInstance: {fileID: 1510112649977376249}
+  m_PrefabAsset: {fileID: 0}
+--- !u!320 &1695798870
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1695798868}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: b6076160cd359fa44a3cd539550acac6, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings: []
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &1510112649977376249
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -616,10 +638,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 7333297183169741794, guid: ae3b76f30c4b9444693b2de81b8a6059, type: 3}
+      propertyPath: anim
+      value: 
+      objectReference: {fileID: 1695798869}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5631013958592418502, guid: ae3b76f30c4b9444693b2de81b8a6059, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1695798870}
   m_SourcePrefab: {fileID: 100100000, guid: ae3b76f30c4b9444693b2de81b8a6059, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
