@@ -24,7 +24,7 @@ namespace Script
             _runner = GetComponent<LaneRunner>();
             _rb = GetComponent<Rigidbody>();
             anim = FindObjectOfType<Animator>();
-            StartCoroutine(animation());
+            StartCoroutine(Animation());
         }
 
         private void Update()
@@ -46,7 +46,7 @@ namespace Script
             Debug.Log(timer);
         }
 
-        IEnumerator animation()
+        IEnumerator Animation()
         {
             yield return new WaitForSeconds(4.275f);
             anim.SetTrigger("Action");

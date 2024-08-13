@@ -4,31 +4,35 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.Serialization;
 
+
 namespace Script
 {
     public class Birthday : MonoBehaviour
     {
+        AudioManager audioManager;
+
         public void Start()
         {
+            audioManager = GetComponent<AudioManager>();
             AudioManager.Instance.PlayMusic("Cuarto");
         }
 
-        public void Door1()
-        {
-            AudioManager.Instance.ChangeMusic("Cuarto");
-            SceneManager.LoadScene("Level1");
-        }
+        /*    public void Door1()
+            {
+                AudioManager.Instance.ChangeTrack("Cuarto");
+                SceneManager.LoadScene("Level1");
+            }
 
-        public void Door2()
-        {
-            AudioManager.Instance.ChangeMusic("Cuarto");
-            SceneManager.LoadScene("Level2");
-        }
+            public void Door2()
+            {
+                AudioManager.Instance.ChangeMusic("Cuarto");
+                SceneManager.LoadScene("Level2");
+            }
 
-        public void Door3()
-        {
-            AudioManager.Instance.ChangeMusic("Cuarto");
-            SceneManager.LoadScene("Level3");
-        }
+            public void Door3()
+            {
+                AudioManager.Instance.ChangeMusic("Cuarto");
+                SceneManager.LoadScene("Level3");
+            }*/
     }
 }
