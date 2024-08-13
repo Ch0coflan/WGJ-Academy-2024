@@ -24,7 +24,7 @@ public class spawnObject : MonoBehaviour
             SpawnObject();
             Debug.Log("Se ha instanciado el objeto final");
         }
-        Debug.Log(timer);
+       
     }
 
     private void OnCollisionEnter(Collision collision)

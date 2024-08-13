@@ -43,7 +43,7 @@ namespace Script
             _jump = Physics.Raycast(tf.position, Vector2.down, 2f, ground);
 
             if(Input.GetKeyDown(KeyCode.Space) && _jump) _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
-            Debug.Log(timer);
+            
         }
 
         IEnumerator Animation()
