@@ -11,9 +11,7 @@ public class AudioMenuController : MonoBehaviour
     [SerializeField] private Slider _musicSlider;
     [SerializeField] private Slider _sfxSlider;
     [SerializeField] private Slider _masterSlider;
-    [SerializeField] private Toggle _musicButton;
-    [SerializeField] private Toggle _sfxButton;
-    [SerializeField] private Toggle _masterButton;
+    
 
 
     private void Start()
@@ -41,15 +39,7 @@ public class AudioMenuController : MonoBehaviour
         SetMasterVolume();
     }
 
-    public void ToggleMusic() //llamar funcion en el OnClick del Boton
-    {
-        AudioManager.Instance.ToggleMusic();
-    }
-
-    public void ToggleSFX() //llamar funcion en el OnClick del Boton
-    {
-        AudioManager.Instance.ToggleSFX();
-    }
+    
 
     public void SetMusicVolume() //llamar funcion en el OnValueChange del objeto
     {
