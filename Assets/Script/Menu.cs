@@ -13,6 +13,14 @@ namespace Script
         [SerializeField] private GameObject ppalMenu; // Referencia al menú principal
         [SerializeField] private GameObject optionsMenu; // Referencia al menú de opciones
         [SerializeField] private GameObject creditsMenu; // Referencia al menú de créditos
+        [SerializeField] private GameObject creditsImage; // Referencia a la imagen de créditos
+
+        void Awake()
+        {
+            optionsMenu.SetActive(false);
+            creditsMenu.SetActive(false);
+            creditsImage.SetActive(false); // Asegúrate de que la imagen de créditos esté desactivada al inicio
+        }
 
         public void Play()
         {
@@ -26,12 +34,22 @@ namespace Script
         {
             ppalMenu.SetActive(false);
             optionsMenu.SetActive(true);
+            AudioManager.Instance.PlaySFX("Yay");
         }
 
         public void ShowCredits()
         {
             ppalMenu.SetActive(false);
             creditsMenu.SetActive(true);
+            creditsImage.SetActive(true); // Activa la imagen de créditos cuando se muestra el menú de créditos
+        }
+
+        public void Back()
+        {
+            optionsMenu.SetActive(false);
+            creditsMenu.SetActive(false); // Asegúrate de desactivar el menú de créditos
+            creditsImage.SetActive(false); // Desactiva la imagen de créditos
+            ppalMenu.SetActive(true);
         }
 
         public void ExitGame()
