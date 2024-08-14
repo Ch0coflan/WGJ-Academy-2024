@@ -28,6 +28,7 @@ namespace Script
             portal.SetActive(true);
             Invoke("wait", 1f);
             StartCoroutine(time());
+            AudioManager.Instance.PlaySFX("Vamos");
         }
 
         public void ShowOptions()
@@ -42,6 +43,7 @@ namespace Script
             ppalMenu.SetActive(false);
             creditsMenu.SetActive(true);
             creditsImage.SetActive(true); // Activa la imagen de créditos cuando se muestra el menú de créditos
+            AudioManager.Instance.PlaySFX("Uff");
         }
 
         public void Back()
@@ -50,11 +52,13 @@ namespace Script
             creditsMenu.SetActive(false); // Asegúrate de desactivar el menú de créditos
             creditsImage.SetActive(false); // Desactiva la imagen de créditos
             ppalMenu.SetActive(true);
+            AudioManager.Instance.PlaySFX("Yay");
         }
 
         public void ExitGame()
         {
             Application.Quit();
+            AudioManager.Instance.PlaySFX("Ay");
         }
 
         public void Level1()

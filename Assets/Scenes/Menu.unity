@@ -1091,6 +1091,16 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: df2281ec73f9f43fdbaf2d85f8711dd6, type: 3}
   - name: Win
     clip: {fileID: 8300000, guid: 2da4760d135d54628b924543d1804400, type: 3}
+  - name: Intro1
+    clip: {fileID: 8300000, guid: 31d628a98f4e14c578d6dd873b550937, type: 3}
+  - name: Puerta1
+    clip: {fileID: 8300000, guid: 1d0e7b2278fae479d8417d567ca02370, type: 3}
+  - name: Puerta2
+    clip: {fileID: 8300000, guid: db6f5f1bb118b4a65a44ab739b58f566, type: 3}
+  - name: Puerta3
+    clip: {fileID: 8300000, guid: 59f3c350d76b84c4a8084ad04f03f627, type: 3}
+  - name: GameOver
+    clip: {fileID: 8300000, guid: edff203ff70434f099de4e127ee688ea, type: 3}
   sfxSounds:
   - name: NarraIntro01
     clip: {fileID: 8300000, guid: 0f77e0212bfe0414590db5dfd8cfa8f1, type: 3}
@@ -2981,7 +2991,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
