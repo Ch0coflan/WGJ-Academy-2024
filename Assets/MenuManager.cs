@@ -7,7 +7,6 @@ public class MenuManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        AudioManager.Instance.StopMusic();
         AudioManager.Instance.ChangeMusic("Menu");
     }
 
