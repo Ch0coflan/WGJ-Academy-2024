@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.31195125, g: 0.4035225, b: 0.4479854, a: 1}
+  m_IndirectSpecularColor: {r: 0.31195316, g: 0.40352383, b: 0.44798642, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3150,9 +3150,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1967436460}
-        m_TargetAssemblyTypeName: Script.Birthday, Assembly-CSharp
-        m_MethodName: Door1
+      - m_Target: {fileID: 1967436458}
+        m_TargetAssemblyTypeName: Script.Menu, Assembly-CSharp
+        m_MethodName: Level1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3800,8 +3800,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   portal: {fileID: 0}
-  button: {fileID: 0}
+  button: {fileID: 1826473477}
   image: {fileID: 0}
+  ppalMenu: {fileID: 0}
+  optionsMenu: {fileID: 0}
+  creditsMenu: {fileID: 0}
+  creditsImage: {fileID: 0}
 --- !u!320 &1967436459
 PlayableDirector:
   m_ObjectHideFlags: 0

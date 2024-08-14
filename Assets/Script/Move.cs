@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Dreamteck.Forever;
+using Unity.VisualScripting;
 
 namespace Script
 {
@@ -48,9 +49,18 @@ namespace Script
 
         IEnumerator Animation()
         {
-            yield return new WaitForSeconds(4.275f);
+            yield return new WaitForSeconds(0.5f);
             anim.SetTrigger("Action");
         }
-        
+
+      /*  private void OnCollisionEnter(Collision collision)
+        {
+            if(collision.collider.tag =="Obstaculo")
+            {
+                _runner.follow = false;
+                anim.ResetTrigger("Action");
+                
+            }
+        }*/
     }
 }

@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 892349883717509842}
   m_Layer: 0
   m_Name: Pot_tree
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -103,11 +103,11 @@ BoxCollider:
     m_Bits: 0
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
-  m_ProvidesContacts: 0
+  m_ProvidesContacts: 1
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 0.0058773803, y: 0.006183552, z: 0.005587522}
-  m_Center: {x: 0.00004196167, y: 0.00015754346, z: 0.0027937633}
+  m_Size: {x: 0.0066139125, y: 0.0066970293, z: 0.005587522}
+  m_Center: {x: -0.0000066709517, y: 0.000005764814, z: 0.0027937628}
 --- !u!1 &6455173535333126778
 GameObject:
   m_ObjectHideFlags: 0
@@ -119,7 +119,7 @@ GameObject:
   - component: {fileID: 8750043812167272801}
   m_Layer: 0
   m_Name: Pot_tree prefab
-  m_TagString: Untagged
+  m_TagString: Obstaculo
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
