@@ -64,6 +64,7 @@ namespace Script
         public void Level1()
         {
             SceneManager.LoadScene("Level1");
+            AudioManager.Instance.StopSFX();
         }
 
         IEnumerator time()

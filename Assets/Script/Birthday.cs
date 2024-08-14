@@ -9,14 +9,14 @@ namespace Script
 {
     public class Birthday : MonoBehaviour
     {
-        AudioManager audioManager;
+
+        public string narrator;
+        public string music;
 
         public void Start()
         {
-            audioManager = GetComponent<AudioManager>();
-            AudioManager.Instance.PlayMusic("Cuarto");
+            AudioManager.Instance.PlayMusic(narrator);
         }
-
 
     }
 }
