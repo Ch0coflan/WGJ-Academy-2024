@@ -1808,9 +1808,6 @@ MonoBehaviour:
   _musicSlider: {fileID: 2128990526}
   _sfxSlider: {fileID: 578382028}
   _masterSlider: {fileID: 394842402}
-  _musicButton: {fileID: 532894193}
-  _sfxButton: {fileID: 1635406625}
-  _masterButton: {fileID: 0}
 --- !u!1 &1267092768
 GameObject:
   m_ObjectHideFlags: 0
