@@ -18,10 +18,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0.94
+    m_Value: 99.68
   intensity:
     m_OverrideState: 1
-    m_Value: 1.5
+    m_Value: 31.4
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -30,7 +30,7 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 1, g: 0.6592624, b: 0.3537736, a: 1}
+    m_Value: {r: 0.25792095, g: 0.32655317, b: 0.8679245, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
@@ -90,10 +90,10 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.97750795, y: 0.98008317, z: 1, w: -0.23084995}
+    m_Value: {x: 0.87808555, y: 0.6148051, z: 1, w: -0.23084995}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 1, y: 0.9837806, z: 0.992888, w: 0}
+    m_Value: {x: 0.9942641, y: 1, z: 0.8674977, w: 0}
   highlights:
     m_OverrideState: 0
     m_Value: {x: 1, y: 1, z: 1, w: 0}
@@ -165,7 +165,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
-  m_Name: SampleSceneProfile
+  m_Name: Level2SceneVol
   m_EditorClassIdentifier: 
   components:
   - {fileID: 849379129802519247}
@@ -258,7 +258,7 @@ MonoBehaviour:
     m_Value: 0
   contrast:
     m_OverrideState: 1
-    m_Value: 17.7
+    m_Value: 71
   colorFilter:
     m_OverrideState: 0
     m_Value: {r: 1, g: 1, b: 1, a: 1}
