@@ -10,6 +10,7 @@ public class AudioMenuController : MonoBehaviour
     [SerializeField] private AudioMixer myMixer;
     [SerializeField] private Slider _musicSlider;
     [SerializeField] private Slider _sfxSlider;
+    [SerializeField] private Slider _narratorSlider;
     [SerializeField] private Slider _masterSlider;
     
 
@@ -24,6 +25,7 @@ public class AudioMenuController : MonoBehaviour
         {
             SetMusicVolume();
             SetSFXVolume();
+            SetNarratorVolume();
             SetMasterVolume();
         }
 
@@ -49,6 +51,13 @@ public class AudioMenuController : MonoBehaviour
     }
         
     public void SetSFXVolume() //llamar funcion en el OnValueChange del objeto
+    {
+        float volume = _sfxSlider.value;
+        myMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);
+        PlayerPrefs.SetFloat("sfxVolume", volume);
+    }
+
+    public void SetNarratorVolume() //llamar funcion en el OnValueChange del objeto
     {
         float volume = _sfxSlider.value;
         myMixer.SetFloat("SFX", Mathf.Log10(volume) * 20);

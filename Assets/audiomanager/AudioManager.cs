@@ -10,6 +10,9 @@ public class AudioManager : MonoBehaviour
     public Sound[] musicSounds, sfxSounds;
     public AudioSource musicSource, sfxSource;
 
+    public Sound[] narratorSounds;
+
+    
 
     private void Awake()
     {
@@ -24,10 +27,6 @@ public class AudioManager : MonoBehaviour
         }
     }
 
-    private void Start()
-    {
-        PlayMusic("Cuarto");
-    }
     public void PlayMusic(string name)
     {
         Sound s = Array.Find(musicSounds, x => x.name == name);
@@ -36,9 +35,9 @@ public class AudioManager : MonoBehaviour
         {
             Debug.Log("Sound Not Found");
         }
-
         else
         {
+            musicSource.Stop(); // Detener el clip actual
             musicSource.clip = s.clip;
             musicSource.Play();
         }
@@ -52,67 +51,63 @@ public class AudioManager : MonoBehaviour
         {
             Debug.Log("Sound Not Found");
         }
-
         else
         {
+            sfxSource.Stop(); // Detener el clip actual
             sfxSource.PlayOneShot(s.clip);
         }
     }
 
-    //UI Sound Controls
+    public void PlayNarrator(string name)
+    {
+        Sound s = Array.Find(narratorSounds, x => x.name == name);
+
+        if (s == null)
+        {
+            Debug.Log("Sound Not Found");
+        }
+        else
+        {
+            sfxSource.Stop(); // Detener el clip actual
+            sfxSource.PlayOneShot(s.clip);
+        }
+    }
+
+    public void StopSFX()
+    {
+        sfxSource.Stop();
+    }
+
+    // UI Sound Controls
     public void ToggleMusic()
     {
         musicSource.mute = !musicSource.mute;
     }
+
     public void ToggleSFX()
     {
         sfxSource.mute = !sfxSource.mute;
     }
-   
-
 
     public void ChangeMusic(string sceneName)
-{
-    switch (sceneName)
     {
-        case "Menu":
-            PlayMusic("Cuarto");
-            break;
-        case "Birthday":
-            PlayMusic("Cuarto");
-            break;
-        case "Level1":
-            PlayMusic("Cuarto");
-            break;
-        case "Level2": 
-            PlayMusic("Cuarto");
-            break;
-        case "Level3":
-            PlayMusic("Cuarto");
-            break;
+        switch (sceneName)
+        {
+            case "Menu":
+                PlayMusic("Cuarto");
+                break;
+            case "Birthday":
+                PlayMusic("Cuarto");
+                break;
+            case "Level1":
+                PlayMusic("Puerta1");
+                break;
+            case "Level2": 
+                PlayMusic("Puerta2");
+                break;
+            case "Level3":
+                PlayMusic("Puerta3");
+                break;
+        }
     }
-}
-
-
-
-
-
-
-
-
-    //public void MusicVolume(float volume)
-    //{
-    //musicSource.volume = volume;
-    //}
-    // public void SFXVolume(float volume)
-    // {
-    // sfxSource.volume = volume;
-    //}
-
-    //To call the PlaySfx
-    //AudioManager.Instance.PlaySFX("Nombre del SFX");
-
-    //To stop music
-    //AudioManager.Instance.musicSource.stop();
-
 }
