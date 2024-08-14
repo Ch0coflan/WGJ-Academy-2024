@@ -7,12 +7,9 @@ public class AudioManager : MonoBehaviour
 {
     public static AudioManager Instance;
 
-    public Sound[] musicSounds, sfxSounds;
-    public AudioSource musicSource, sfxSource;
+    public Sound[] musicSounds, sfxSounds, narratorSound;
+    public AudioSource musicSource, sfxSource, narratorSource;
 
-    public Sound[] narratorSounds;
-
-    
 
     private void Awake()
     {
@@ -29,6 +26,8 @@ public class AudioManager : MonoBehaviour
 
     public void PlayMusic(string name)
     {
+        musicSource.Stop();
+
         Sound s = Array.Find(musicSounds, x => x.name == name);
 
         if (s == null)
@@ -37,7 +36,7 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            musicSource.Stop(); // Detener el clip actual
+            //musicSource.Stop(); // Detener el clip actual
             musicSource.clip = s.clip;
             musicSource.Play();
         }
@@ -53,14 +52,15 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            sfxSource.Stop(); // Detener el clip actual
+            //sfxSource.Stop(); // Detener el clip actual
             sfxSource.PlayOneShot(s.clip);
         }
     }
 
     public void PlayNarrator(string name)
     {
-        Sound s = Array.Find(narratorSounds, x => x.name == name);
+        narratorSource.Stop();
+        Sound s = Array.Find(narratorSound, x => x.name == name);
 
         if (s == null)
         {
@@ -68,14 +68,9 @@ public class AudioManager : MonoBehaviour
         }
         else
         {
-            sfxSource.Stop(); // Detener el clip actual
-            sfxSource.PlayOneShot(s.clip);
+            //sfxSource.Stop(); // Detener el clip actual
+            narratorSource.PlayOneShot(s.clip);
         }
-    }
-
-    public void StopSFX()
-    {
-        sfxSource.Stop();
     }
 
     // UI Sound Controls
@@ -94,7 +89,7 @@ public class AudioManager : MonoBehaviour
         switch (sceneName)
         {
             case "Menu":
-                PlayMusic("Cuarto");
+                PlayMusic("Menu");
                 break;
             case "Birthday":
                 PlayMusic("Cuarto");

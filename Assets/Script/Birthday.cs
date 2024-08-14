@@ -10,18 +10,18 @@ namespace Script
     public class Birthday : MonoBehaviour
     {
 
-        public string narratorStart;
+        //public string narratorStart;
 
         public void Start()
         {
-            AudioManager.Instance.PlaySFX(narratorStart);
+            AudioManager.Instance.PlayNarrator("Intro");
         }
 
         public void OnTriggerEnter(Collider other)
         {
             if (other.CompareTag("Player"))
             {
-                AudioManager.Instance.PlaySFX("NarraIntro02");
+                AudioManager.Instance.PlayNarrator("Puertas");
             }
         }
 

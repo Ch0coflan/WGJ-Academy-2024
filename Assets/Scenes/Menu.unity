@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2275,6 +2275,50 @@ RectTransform:
   m_AnchoredPosition: {x: -5, y: 0}
   m_SizeDelta: {x: -20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1379260619
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379260621}
+  - component: {fileID: 1379260620}
+  m_Layer: 0
+  m_Name: LevelManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1379260620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379260619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7d95fff05699f94481f25630f9fb3c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1379260621
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379260619}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.0215747, y: 3.5834758, z: 2.6309347}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1411927655
 GameObject:
   m_ObjectHideFlags: 0
@@ -3417,6 +3461,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSource
+      value: 
+      objectReference: {fileID: 7600965682415013001}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 0f77e0212bfe0414590db5dfd8cfa8f1, type: 3}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[0].name
+      value: Intro
+      objectReference: {fileID: 0}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[1].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 073c775d6596d492399c7c75657da03f, type: 3}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[1].name
+      value: Puertas
+      objectReference: {fileID: 0}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[2].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: b8494703aac874a7db473a69474fba19, type: 3}
+    - target: {fileID: 175163975741962949, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[2].name
+      value: IntroLevel2
+      objectReference: {fileID: 0}
     - target: {fileID: 987166166623809303, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.37287378
@@ -3457,6 +3533,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: musicSounds.Array.data[2].name
+      value: Menu
+      objectReference: {fileID: 0}
     - target: {fileID: 4663118009210383577, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: m_Name
       value: AudioManager
@@ -3466,6 +3546,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+--- !u!82 &7600965682415013001 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4401425630864915876, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+  m_PrefabInstance: {fileID: 7600965682415013000}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8761698004022876104
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3548,3 +3633,4 @@ SceneRoots:
   - {fileID: 651362537}
   - {fileID: 7600965682415013000}
   - {fileID: 8761698004022876104}
+  - {fileID: 1379260621}

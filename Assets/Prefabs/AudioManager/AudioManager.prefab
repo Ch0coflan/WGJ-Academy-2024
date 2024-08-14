@@ -393,7 +393,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 987166166623809303}
-  - component: {fileID: 175163975741962949}
+  - component: {fileID: 1897353518020113429}
   m_Layer: 0
   m_Name: AudioManager
   m_TagString: Untagged
@@ -419,7 +419,7 @@ Transform:
   - {fileID: 8112420293827660967}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &175163975741962949
+--- !u!114 &1897353518020113429
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -473,8 +473,13 @@ MonoBehaviour:
     clip: {fileID: 8300000, guid: eb42761bbec684fbbaf9d122dbe26cd3, type: 3}
   - name: Yay
     clip: {fileID: 8300000, guid: 863488ac8f8ed476c85ca22df69d7e69, type: 3}
+  narratorSound:
+  - name: Intro
+    clip: {fileID: 8300000, guid: 0f77e0212bfe0414590db5dfd8cfa8f1, type: 3}
+  - name: Puertas
+    clip: {fileID: 8300000, guid: 073c775d6596d492399c7c75657da03f, type: 3}
+  - name: IntroLevel2
+    clip: {fileID: 8300000, guid: b8494703aac874a7db473a69474fba19, type: 3}
   musicSource: {fileID: 3502141588441006451}
   sfxSource: {fileID: 9168402771809479249}
-  narratorSounds:
-  - name: NarraIntro01
-    clip: {fileID: 8300000, guid: 0f77e0212bfe0414590db5dfd8cfa8f1, type: 3}
+  narratorSource: {fileID: 4401425630864915876}
