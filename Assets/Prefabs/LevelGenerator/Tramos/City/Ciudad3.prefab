@@ -86,7 +86,6 @@ GameObject:
   - component: {fileID: 2236661575656797251}
   - component: {fileID: 3304327783624381611}
   - component: {fileID: 8798011783789369846}
-  - component: {fileID: 2809019637029054897}
   m_Layer: 0
   m_Name: Ciudad3
   m_TagString: Untagged
@@ -8841,13 +8840,13 @@ MonoBehaviour:
     colliders: []
     _isRoot: 0
   bounds:
-    center: {x: -51.70783, y: -5.7017326, z: 1.925818}
-    extents: {x: 78.40203, y: 18.868608, z: 13.831484}
-    max: {x: 26.694204, y: 13.166876, z: 15.757301}
+    center: {x: -51.707832, y: -5.7017326, z: 1.4157562}
+    extents: {x: 78.40203, y: 18.868608, z: 13.321422}
+    max: {x: 26.6942, y: 13.166876, z: 14.737178}
     min: {x: -130.10986, y: -24.570341, z: -11.905665}
-    size: {x: 156.80406, y: 37.737217, z: 27.662968}
+    size: {x: 156.80406, y: 37.737217, z: 26.642843}
   builders: []
-  unpacked: 0
+  unpacked: 1
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -8855,23 +8854,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 272
---- !u!114 &2809019637029054897
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2837136521879502783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredValue: 10
-  timer: 0
-  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
-  _spawnObject: {fileID: 5050984600655411827}
+  editorChildCount: 271
 --- !u!1 &5110727920095264274
 GameObject:
   m_ObjectHideFlags: 0

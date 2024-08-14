@@ -234,7 +234,6 @@ GameObject:
   - component: {fileID: 7389203968248859976}
   - component: {fileID: 3101243670699528532}
   - component: {fileID: 4793891513945967867}
-  - component: {fileID: -4108900993226955593}
   m_Layer: 0
   m_Name: ciudad4
   m_TagString: Untagged
@@ -8403,7 +8402,7 @@ MonoBehaviour:
     min: {x: -130.13269, y: -24.68878, z: -11.9128685}
     size: {x: 163.64482, y: 37.9, z: 29.976305}
   builders: []
-  unpacked: 0
+  unpacked: 1
   alwaysDraw: 0
   drawGeneratedSpline: 1
   drawGeneratedSamples: 1
@@ -8411,23 +8410,7 @@ MonoBehaviour:
   drawEntranceAndExit: 1
   drawBounds: 1
   drawCustomPaths: 1
-  editorChildCount: 253
---- !u!114 &-4108900993226955593
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8393440350052145205}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredValue: 40
-  timer: 0
-  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
-  _spawnObject: {fileID: 5222009818806614811}
+  editorChildCount: 252
 --- !u!1 &9069823978384782905
 GameObject:
   m_ObjectHideFlags: 0

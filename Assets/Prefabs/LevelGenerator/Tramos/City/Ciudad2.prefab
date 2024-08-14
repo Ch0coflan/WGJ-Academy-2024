@@ -309,7 +309,6 @@ GameObject:
   - component: {fileID: 4056153392439348624}
   - component: {fileID: 812488277093243135}
   - component: {fileID: 7980132254710287115}
-  - component: {fileID: 5221078923765729421}
   m_Layer: 0
   m_Name: Ciudad2
   m_TagString: Untagged
@@ -6355,7 +6354,8 @@ MonoBehaviour:
     meshFilter: {fileID: 0}
     meshCollider: {fileID: 0}
     spriteRenderer: {fileID: 0}
-    colliders: []
+    colliders:
+    - {fileID: 6099251143890583391}
     _isRoot: 0
   - transform: {fileID: 6467790705804684289}
     localRotation: {x: 0, y: 0.7071068, z: -0, w: 0.7071068}
@@ -6386,7 +6386,8 @@ MonoBehaviour:
     meshFilter: {fileID: 0}
     meshCollider: {fileID: 0}
     spriteRenderer: {fileID: 0}
-    colliders: []
+    colliders:
+    - {fileID: 8473981598863743608}
     _isRoot: 0
   - transform: {fileID: 5630817222828130459}
     localRotation: {x: 0, y: 0, z: 0, w: 1}
@@ -8260,22 +8261,6 @@ MonoBehaviour:
   drawBounds: 1
   drawCustomPaths: 1
   editorChildCount: 245
---- !u!114 &5221078923765729421
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8248954312586597303}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredValue: 25
-  timer: 0
-  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
-  _spawnObject: {fileID: 5630817222828130459}
 --- !u!1001 &29225862947855399
 PrefabInstance:
   m_ObjectHideFlags: 0

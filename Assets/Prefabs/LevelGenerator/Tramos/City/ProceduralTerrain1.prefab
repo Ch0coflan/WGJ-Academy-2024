@@ -322,7 +322,6 @@ GameObject:
   - component: {fileID: 4991439481228630710}
   - component: {fileID: 2941249378274995932}
   - component: {fileID: 1151855379161491134}
-  - component: {fileID: 4987664598095866568}
   m_Layer: 0
   m_Name: ProceduralTerrain1
   m_TagString: Untagged
@@ -10484,22 +10483,6 @@ MonoBehaviour:
   drawBounds: 1
   drawCustomPaths: 1
   editorChildCount: 315
---- !u!114 &4987664598095866568
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4871814849114388410}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredValue: 20
-  timer: 0
-  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
-  _spawnObject: {fileID: 5633788995420238969}
 --- !u!1 &5585897023171311417
 GameObject:
   m_ObjectHideFlags: 0
