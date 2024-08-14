@@ -49,7 +49,7 @@ namespace Script
 
         IEnumerator Animation()
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(2f);
             anim.SetTrigger("Action");
         }
 

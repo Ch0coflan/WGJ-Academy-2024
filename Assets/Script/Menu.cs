@@ -24,7 +24,7 @@ namespace Script
 
         public void Play()
         {
-            Debug.Log("entro");
+           
             portal.SetActive(true);
             Invoke("wait", 1f);
             StartCoroutine(time());
