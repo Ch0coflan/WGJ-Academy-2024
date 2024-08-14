@@ -17,22 +17,6 @@ namespace Script
             AudioManager.Instance.PlayMusic("Cuarto");
         }
 
-        /*    public void Door1()
-            {
-                AudioManager.Instance.ChangeTrack("Cuarto");
-                SceneManager.LoadScene("Level1");
-            }
 
-            public void Door2()
-            {
-                AudioManager.Instance.ChangeMusic("Cuarto");
-                SceneManager.LoadScene("Level2");
-            }
-
-            public void Door3()
-            {
-                AudioManager.Instance.ChangeMusic("Cuarto");
-                SceneManager.LoadScene("Level3");
-            }*/
     }
 }
