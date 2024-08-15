@@ -10001,7 +10001,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a90f519d30a7e449849f61d13a9c025, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  teleportPoint: {fileID: 0}
 --- !u!33 &9199644156851970241 stripped
 MeshFilter:
   m_CorrespondingSourceObject: {fileID: 8724433957999304827, guid: 0afd69b5b86b13b4db61d58f91c02066, type: 3}

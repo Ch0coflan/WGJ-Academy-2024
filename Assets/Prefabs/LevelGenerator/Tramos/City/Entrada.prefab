@@ -209,7 +209,6 @@ GameObject:
   - component: {fileID: 3989966609703679197}
   - component: {fileID: 1078432408299413398}
   - component: {fileID: 886837938815912800}
-  - component: {fileID: -1833595047227638903}
   m_Layer: 0
   m_Name: Entrada
   m_TagString: Untagged
@@ -9634,22 +9633,6 @@ MonoBehaviour:
   drawBounds: 1
   drawCustomPaths: 1
   editorChildCount: 292
---- !u!114 &-1833595047227638903
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5329762822453030111}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 39711821951a35341bbee613fcb4b3c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  requiredValue: 30
-  timer: 0
-  endObject: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
-  _spawnObject: {fileID: 3574892544039186442}
 --- !u!1 &5975369680549543167
 GameObject:
   m_ObjectHideFlags: 0
