@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class pointsValidation : MonoBehaviour
 {
-    public collectibleItems items;
+    private collectibleItems items;
     public GameObject elementoFinal;
-    public Transform spawnObject;
+    
 
     private void Start()
     {
@@ -14,7 +14,7 @@ public class pointsValidation : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(items != null && items.objectsCollected >= 120)
+        if(items != null && items.objectsCollected >= 60)
         {
             elementoFinal.SetActive(true);
         }
