@@ -8,7 +8,7 @@ namespace Script
 
         public void Start()
         {
-            AudioManager.Instance.PlayNarrator("IntroLevel1");
+            
             AudioManager.Instance.PlayMusic("Puerta3");
         }
 

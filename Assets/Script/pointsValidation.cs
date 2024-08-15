@@ -1,11 +1,10 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class pointsValidation : MonoBehaviour
 {
     public collectibleItems items;
     public GameObject elementoFinal;
+    public Transform spawnObject;
 
     private void Start()
     {
