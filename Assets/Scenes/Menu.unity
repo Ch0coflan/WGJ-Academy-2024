@@ -3611,7 +3611,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: narratorSound.Array.size
-      value: 4
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: musicSounds.Array.data[2].name
@@ -3624,6 +3624,14 @@ PrefabInstance:
     - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: narratorSound.Array.data[3].name
       value: IntroLevel1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[4].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: 6f917fbdbba6a41d394b11e6cea04ab7, type: 3}
+    - target: {fileID: 1897353518020113429, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
+      propertyPath: narratorSound.Array.data[4].name
+      value: IntroLevel3
       objectReference: {fileID: 0}
     - target: {fileID: 4663118009210383577, guid: 1c11c24a155d74e3ab6c9c8eda11f38f, type: 3}
       propertyPath: m_Name

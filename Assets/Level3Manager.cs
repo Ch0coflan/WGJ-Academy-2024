@@ -2,18 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LevelManager : MonoBehaviour
+public class Level3Manager : MonoBehaviour
 {
     // Start is called before the first frame update
-    public void Start()
+    void Start()
     {
-        AudioManager.Instance.PlayNarrator("IntroLevel2");
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-
         
     }
 }
