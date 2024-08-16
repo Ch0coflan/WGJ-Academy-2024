@@ -148,7 +148,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &864621219569710852
 Transform:
@@ -194,7 +194,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &6467790705804684289
 Transform:
@@ -261,7 +261,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &1287276141350159632
 Transform:
@@ -8953,7 +8953,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &765392285591221872
 Transform:
@@ -11500,9 +11500,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -13142,9 +13150,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -16082,9 +16098,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -16934,9 +16958,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -17023,9 +17055,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -18697,9 +18737,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -19041,9 +19089,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
@@ -19130,9 +19186,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 765392285591221872}
     m_Modifications:
+    - target: {fileID: 3354774642686215807, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_Name
       value: Tennis (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4896019162856505846, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
       objectReference: {fileID: 0}
     - target: {fileID: 5240492121078700876, guid: c6a9450d797856d40bea8023e8dee586, type: 3}
       propertyPath: m_LocalScale.x
