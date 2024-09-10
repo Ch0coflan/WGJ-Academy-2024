@@ -14,7 +14,7 @@ public class pointsValidation : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(items != null && items.objectsCollected >= 60)
+        if(items != null && items.objectsCollected >= 2)
         {
             elementoFinal.SetActive(true);
         }
