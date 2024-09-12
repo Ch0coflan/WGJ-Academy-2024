@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 084b3ccb74b9f0a47b8c5c809ac9ee7f, type: 3}
-  m_Name: Level3_School
+  m_Name: Level3_House
   m_EditorClassIdentifier: 
   _enabled: 1
   _pathGenerator: {fileID: 11400000, guid: a4ecc0385bd734d749059b32b5e0c4bc, type: 2}
