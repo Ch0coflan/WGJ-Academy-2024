@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 756432738833b7f4ea93f571ea2b4e04
+guid: 216daf9df24d98a469a69488ec0af08e
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -8,22 +8,22 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: casillero 1
-    second: {fileID: 2100000, guid: e6b9b44320f4448d9d5e0ee634259966, type: 2}
+    second: {fileID: 2100000, guid: 1d47ca97299801c449614e4886ec6b5e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: casillero 2
-    second: {fileID: 2100000, guid: d84664f06e96b455ea1ab005483b4780, type: 2}
+    second: {fileID: 2100000, guid: be24012da2feca944aeb8cb9d9505261, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: casillero 3
-    second: {fileID: 2100000, guid: f8bb366fc2fb7d4458c4ebcc41a63ea9, type: 2}
+    second: {fileID: 2100000, guid: 885bc512b26eb4048bfc4c6c9dcca151, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: metal uwu
-    second: {fileID: 2100000, guid: 321f710cfd7c18f45bf9a364ba6a01e5, type: 2}
+    second: {fileID: 2100000, guid: 083f797ea5caaf342b0f235265fe8c34, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
